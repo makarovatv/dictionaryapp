@@ -1,3 +1,17 @@
-.Dictionary {
+body {
  text-align: center;
+}
+
+.Dictionary section {
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 3px 5px 3px rgba(66, 60, 27, 0.1);
+    margin: 20px 0;
+}
+
+.Dictionary input {
+    width: 80%;
+    padding: 6px 4px;
+    border: solid 1px #ddd;
+    border-radius: 6px;
 }

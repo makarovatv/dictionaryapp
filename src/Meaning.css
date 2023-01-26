@@ -1,0 +1,14 @@
+h4 {
+  font-size: 24px;
+}
+.Definition {
+  font-size: 18px;
+  color: rgb(35, 35, 35);
+}
+
+.Example {
+  font-size: 14px;
+  opacity: 0.8;
+  font-style: italic;
+  margin-top: 10px;
+}

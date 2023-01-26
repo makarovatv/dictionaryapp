@@ -23,10 +23,14 @@ function handleKeywordChange(event) {
     setKeyword(event.target.value);
 }
 
-    return <div className="Dictionary">
-        <form onSubmit={search}>
+    return (
+      <div className="Dictionary">
+        <section>
+          <form onSubmit={search}>
             <input type="search" onChange={handleKeywordChange} />
-        </form>
+          </form>
+        </section>
         <Results results={results} />
-    </div>;
+      </div>
+    );
 }
