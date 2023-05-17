@@ -4,9 +4,9 @@ body {
 
 .Dictionary section {
     padding: 40px;
-    border-radius: 6px;
-    box-shadow: 3px 5px 3px rgba(66, 60, 27, 0.1);
-    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px rgba(112, 109, 88, 0.1);
+    margin: 15px 0;
 }
 
 .Dictionary input {
